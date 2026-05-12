@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+html {
+  background-color: #0f172b;
+  color: wheat;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form > input, form > button, textarea {
+  padding: 0.5rem 0.9rem;
+  margin: 1rem auto;
+  background-color: #faebd7;
+  border-radius: 10px;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  width: 90%;
+  max-width: 400px;
+  min-width: 200px;
+}

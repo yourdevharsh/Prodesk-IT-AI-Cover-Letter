@@ -65,7 +65,7 @@ app.post("/getOfferLetter", upload.single("resume"), async (req, res) => {
 
     console.log("Generated");
 
-    res.json({ letter: offerLetter });
+    res.status(200).json({ letter: offerLetter });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
